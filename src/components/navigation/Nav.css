@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #EEEEEE;
+}
+
+.hide {
+    display: none;
+}
+
+
+nav {
+    position: relative;
+    background-color: #2098D1;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0, 40px;   
+}
+
+.menu_logo {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translate(-5%, -50%);
+    width: 3.5rem;
+    height: 3.5rem;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 50%;
+    transition: border .3s linear;
+    z-index: 2;
+}
+
+.menu_Name {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: small;
+transition: font-size .6s linear;
+}
+.menu_logo:hover {
+    border-color: #2098D1;
+    color: White;
+   }
+.menu_logo:hover .menu_Name{
+    font-size: xx-large;
+    color: White;
+   }
+
+@media screen and (min-width: 768px) and (max-width: 1440px) { 
+    .menu_right {
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        transform: translate(-5%, -50%);
+    }
+    /* .menu_list {
+        display: none;
+    } */
+}
+
+
+.menu_list {
+    color: black;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_list-item {
+    margin: 0.7rem;
+    text-transform: uppercase;
+    color: black;
+    transition: color .4s ease-in;
+}
+.menu_list-item:hover {
+    color: White;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    nav{
+        height: 4.2rem;
+        padding: 0;
+        z-index: 2;
+    }
+    .line{
+        width: 30px;
+        height: 3px;
+        background: Black;
+        margin: 5px;
+    }
+    .hamburger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+    }
+
+    .menu_list {
+        position: absolute;
+        display: none;
+        justify-content: space-evenly;
+        flex-direction: column; 
+        text-align: center;
+        background-color: #2098D1;
+        width: 100%;
+        height: auto;
+    }
+    .menu_list-item {
+        margin-top: 4.2rem;
+        text-transform: uppercase;
+        color: black; 
+    }
+}

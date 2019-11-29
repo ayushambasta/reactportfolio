@@ -1,0 +1,29 @@
+.blogHead {
+    width: 100%;
+    height: 14rem;
+    background-color: #2098D1;
+    background: linear-gradient(to top, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, #2098D1 100%);
+    text-align: center;
+    color: White;
+    padding-top: 8rem;
+    font-size: 1.6rem;
+    padding-bottom: 6.4rem;
+    display: block;
+}
+.blogHead > h2 {
+    font-size: 2.2rem;
+    padding-top: 0.2rem;
+}
+.blogDetails {
+    height: 21rem;
+    background-color: White;
+    display: flex;
+}
+.sideMenu {
+    background-color: #d3d3d3;
+    flex: 1;
+}
+.mainContent {
+    background-color: White;
+    flex: 4;
+}

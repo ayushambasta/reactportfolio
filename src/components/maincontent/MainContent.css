@@ -1,0 +1,48 @@
+.mainbody{
+    width: 100%;
+    height: 28rem;
+    background-color: #2098D1;
+    background: linear-gradient(to top, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, #2098D1 100%);
+    text-align: center;
+}
+.profileTitle {
+    display: block;
+    color: white;
+    font-size: 2.5rem;
+    padding-top: 6rem;
+}
+.profileDetail {
+    display: inline-block;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    max-width: 960px;
+}
+.techDetails {
+    background-color: White;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+    background-color: #EEEEEE;
+}
+.techHeading {
+    font-size: 2.2rem;
+    margin-bottom: 2.2rem;
+    text-align: center;
+    font: bold;
+    background-color: #EEEEEE;
+}
+
+.serviceMain {
+    text-align: center;
+    margin: 4.2rem 0;
+    font-size: 2.2rem;
+    background-color: #EEEEEE;
+}
+.serviceMain > div {
+    display: inline-block;
+    width: 650px;
+    margin: 2rem 0;
+    line-height: 1.8;
+    font-weight: 230;
+    font-size: 1rem;  
+}

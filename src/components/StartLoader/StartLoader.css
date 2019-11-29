@@ -1,0 +1,29 @@
+#screen {
+    border: 2px solid blue;
+    height: 175px;
+    width: 120px;
+    border-radius: 9px;
+    background-color: rgba(117, 190, 218, 1.0); 
+    }
+
+    hr{
+    margin-top: 160px;
+    color: black;
+    }
+
+    #circle{
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 10px;
+    width:15px;
+    margin-top: -8px;
+    }
+    #m_screen {
+        margin-top: 175px;
+        animation-name: example;
+       animation-duration: 4s;
+    }
+    @keyframes example {
+        from {margin-left: -10px;}
+        to {margin-left: 175px;}
+      }
