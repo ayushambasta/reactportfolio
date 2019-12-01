@@ -35,7 +35,7 @@ render() {
                 <Link to='/' style={{ textDecoration: 'none' }}><li className="menu_list-item">Portfolio</li></Link>
                 <Link to='/blog' style={{ textDecoration: 'none' }}><li className="menu_list-item">Blog</li></Link>
                 <Link to='/projects' style={{ textDecoration: 'none' }}><li className="menu_list-item">Projects</li></Link>
-                <Link to='/notesapp' style={{ textDecoration: 'none', backgroundColor: '#11a8f0' }}><li className="menu_list-item"><i>Note App</i></li></Link>
+                /*<Link to='/notesapp' style={{ textDecoration: 'none', backgroundColor: '#11a8f0' }}><li className="menu_list-item"><i>Note App</i></li></Link>*/
                 </ul>
             </div>
         </nav>
